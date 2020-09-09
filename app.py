@@ -6,6 +6,7 @@ from mindlamp.mindlamp_stack import MindlampStack
 
 
 app = core.App()
-MindlampStack(app, "mindlamp")
-
+stack = MindlampStack(app, "mindlamp")
+core.Tags.of(stack).add("Project", "LAMP Platform")
+core.Tags.of(stack).add("Environment", "Development")
 app.synth()

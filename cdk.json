@@ -3,6 +3,8 @@
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
-    "@aws-cdk/core:stackRelativeExports": "true"
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "zone_name": "example.org",
+    "hosted_zone_id": "AAAABBBBCCCCDD"
   }
 }
